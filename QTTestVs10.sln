@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathFinder", "QTTestVs10\QTTestVs10.vcxproj", "{E7F8CDBE-9232-4492-A8FF-02A29C7B38B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70CB8388-1026-4655-A704-5331B9244DE8} = {70CB8388-1026-4655-A704-5331B9244DE8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrackerCurvature", "TrackerCurvature\TrackerCurvature.vcxproj", "{7B6A3B59-FC99-4D6B-BA7D-43771EE3EB61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrackerCondensation", "TrackerCondensation\TrackerCondensation.vcxproj", "{FAB65AEA-BA4E-447B-A82E-96520CF38BB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeneralTrackerFunctions", "GeneralTrackerFunctions\GeneralTrackerFunctions.vcxproj", "{70CB8388-1026-4655-A704-5331B9244DE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BGSubMean", "BGSubMean\BGSubMean.vcxproj", "{A54F841A-3138-4849-9BDA-08DF1E4CDCAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BGSubMedian", "BGSubMedian\BGSubMedian.vcxproj", "{8ACD5B4A-279D-4DCB-B2A8-28639B80C5D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmtpMailer", "SmtpMailer\SmtpMailer.vcxproj", "{C28AB349-6DE9-4D73-9F8F-195551B0BE38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BGSubMin", "BGSubMin\BGSubMin.vcxproj", "{481D300A-7B8D-4D52-9177-B676427D9BFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{55D382CD-F588-49A5-9F40-8CD16A56280E}"
+	ProjectSection(SolutionItems) = preProject
+		QTTestVs10\addLevel.png = QTTestVs10\addLevel.png
+		QTTestVs10\ausgabe.png = QTTestVs10\ausgabe.png
+		QTTestVs10\back.png = QTTestVs10\back.png
+		QTTestVs10\bigger.png = QTTestVs10\bigger.png
+		QTTestVs10\code.png = QTTestVs10\code.png
+		QTTestVs10\color.png = QTTestVs10\color.png
+		QTTestVs10\deleteSelected.png = QTTestVs10\deleteSelected.png
+		QTTestVs10\down.png = QTTestVs10\down.png
+		QTTestVs10\edit.png = QTTestVs10\edit.png
+		QTTestVs10\exit.png = QTTestVs10\exit.png
+		QTTestVs10\eye.png = QTTestVs10\eye.png
+		QTTestVs10\f.png = QTTestVs10\f.png
+		QTTestVs10\food.png = QTTestVs10\food.png
+		QTTestVs10\fore.png = QTTestVs10\fore.png
+		QTTestVs10\greenoval.png = QTTestVs10\greenoval.png
+		QTTestVs10\help.png = QTTestVs10\help.png
+		QTTestVs10\help_mail.png = QTTestVs10\help_mail.png
+		QTTestVs10\image.png = QTTestVs10\image.png
+		QTTestVs10\import.png = QTTestVs10\import.png
+		QTTestVs10\importp.png = QTTestVs10\importp.png
+		QTTestVs10\input.png = QTTestVs10\input.png
+		QTTestVs10\invert.png = QTTestVs10\invert.png
+		QTTestVs10\k.png = QTTestVs10\k.png
+		QTTestVs10\landmark.png = QTTestVs10\landmark.png
+		QTTestVs10\loader.gif = QTTestVs10\loader.gif
+		QTTestVs10\loadstd.png = QTTestVs10\loadstd.png
+		QTTestVs10\magnifier.png = QTTestVs10\magnifier.png
+		QTTestVs10\mail.png = QTTestVs10\mail.png
+		QTTestVs10\notes.png = QTTestVs10\notes.png
+		QTTestVs10\open.png = QTTestVs10\open.png
+		QTTestVs10\pathfinder.png = QTTestVs10\pathfinder.png
+		QTTestVs10\plugin.png = QTTestVs10\plugin.png
+		QTTestVs10\plus.png = QTTestVs10\plus.png
+		QTTestVs10\prepro.png = QTTestVs10\prepro.png
+		QTTestVs10\rect2985.png = QTTestVs10\rect2985.png
+		QTTestVs10\reload.png = QTTestVs10\reload.png
+		QTTestVs10\removeLandmark.png = QTTestVs10\removeLandmark.png
+		QTTestVs10\result.png = QTTestVs10\result.png
+		QTTestVs10\save.png = QTTestVs10\save.png
+		QTTestVs10\setstd.png = QTTestVs10\setstd.png
+		QTTestVs10\settings.png = QTTestVs10\settings.png
+		QTTestVs10\smaller.png = QTTestVs10\smaller.png
+		QTTestVs10\split.png = QTTestVs10\split.png
+		QTTestVs10\star.png = QTTestVs10\star.png
+		QTTestVs10\subscript.png = QTTestVs10\subscript.png
+		QTTestVs10\superscript.png = QTTestVs10\superscript.png
+		QTTestVs10\table.png = QTTestVs10\table.png
+		QTTestVs10\tmp.png = QTTestVs10\tmp.png
+		QTTestVs10\tracker.png = QTTestVs10\tracker.png
+		QTTestVs10\u.png = QTTestVs10\u.png
+		QTTestVs10\unite.png = QTTestVs10\unite.png
+		QTTestVs10\up.png = QTTestVs10\up.png
+		QTTestVs10\working.png = QTTestVs10\working.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F8CDBE-9232-4492-A8FF-02A29C7B38B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7F8CDBE-9232-4492-A8FF-02A29C7B38B9}.Debug|Win32.Build.0 = Debug|Win32
+		{E7F8CDBE-9232-4492-A8FF-02A29C7B38B9}.Release|Win32.ActiveCfg = Release|Win32
+		{E7F8CDBE-9232-4492-A8FF-02A29C7B38B9}.Release|Win32.Build.0 = Release|Win32
+		{7B6A3B59-FC99-4D6B-BA7D-43771EE3EB61}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B6A3B59-FC99-4D6B-BA7D-43771EE3EB61}.Debug|Win32.Build.0 = Debug|Win32
+		{7B6A3B59-FC99-4D6B-BA7D-43771EE3EB61}.Release|Win32.ActiveCfg = Release|Win32
+		{7B6A3B59-FC99-4D6B-BA7D-43771EE3EB61}.Release|Win32.Build.0 = Release|Win32
+		{FAB65AEA-BA4E-447B-A82E-96520CF38BB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAB65AEA-BA4E-447B-A82E-96520CF38BB1}.Debug|Win32.Build.0 = Debug|Win32
+		{FAB65AEA-BA4E-447B-A82E-96520CF38BB1}.Release|Win32.ActiveCfg = Release|Win32
+		{FAB65AEA-BA4E-447B-A82E-96520CF38BB1}.Release|Win32.Build.0 = Release|Win32
+		{70CB8388-1026-4655-A704-5331B9244DE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70CB8388-1026-4655-A704-5331B9244DE8}.Debug|Win32.Build.0 = Debug|Win32
+		{70CB8388-1026-4655-A704-5331B9244DE8}.Release|Win32.ActiveCfg = Release|Win32
+		{70CB8388-1026-4655-A704-5331B9244DE8}.Release|Win32.Build.0 = Release|Win32
+		{A54F841A-3138-4849-9BDA-08DF1E4CDCAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A54F841A-3138-4849-9BDA-08DF1E4CDCAE}.Debug|Win32.Build.0 = Debug|Win32
+		{A54F841A-3138-4849-9BDA-08DF1E4CDCAE}.Release|Win32.ActiveCfg = Release|Win32
+		{A54F841A-3138-4849-9BDA-08DF1E4CDCAE}.Release|Win32.Build.0 = Release|Win32
+		{8ACD5B4A-279D-4DCB-B2A8-28639B80C5D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8ACD5B4A-279D-4DCB-B2A8-28639B80C5D1}.Debug|Win32.Build.0 = Debug|Win32
+		{8ACD5B4A-279D-4DCB-B2A8-28639B80C5D1}.Release|Win32.ActiveCfg = Release|Win32
+		{8ACD5B4A-279D-4DCB-B2A8-28639B80C5D1}.Release|Win32.Build.0 = Release|Win32
+		{C28AB349-6DE9-4D73-9F8F-195551B0BE38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C28AB349-6DE9-4D73-9F8F-195551B0BE38}.Debug|Win32.Build.0 = Debug|Win32
+		{C28AB349-6DE9-4D73-9F8F-195551B0BE38}.Release|Win32.ActiveCfg = Release|Win32
+		{C28AB349-6DE9-4D73-9F8F-195551B0BE38}.Release|Win32.Build.0 = Release|Win32
+		{481D300A-7B8D-4D52-9177-B676427D9BFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{481D300A-7B8D-4D52-9177-B676427D9BFA}.Debug|Win32.Build.0 = Debug|Win32
+		{481D300A-7B8D-4D52-9177-B676427D9BFA}.Release|Win32.ActiveCfg = Release|Win32
+		{481D300A-7B8D-4D52-9177-B676427D9BFA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
